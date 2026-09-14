@@ -10,7 +10,7 @@ Build a Windows Server 2022 domain controller and sync on-prem Active Directory 
 - Domain: corp.local
 - NetBIOS: CORP
 - Sync tool: Microsoft Entra Connect
-- Cloud tenant: Microsoft Entra ID (Azure for Students)
+- Cloud tenant: Blocked (pending personal tenant)
 
 ## Active Directory Structure
 
@@ -36,8 +36,8 @@ Build a Windows Server 2022 domain controller and sync on-prem Active Directory 
 - [x] AD DS installed and promoted to Domain Controller
 - [x] OUs, users, groups created
 - [x] GPO configured
-- [ ] Microsoft Entra Connect installed
-- [ ] Password hash sync enabled
+- [ ] Microsoft Entra Connect installed (blocked: requires personal Entra tenant with Global Admin)
+- [ ] Password hash sync enabled (blocked)
 
 ## Screenshots
 
@@ -48,4 +48,4 @@ Build a Windows Server 2022 domain controller and sync on-prem Active Directory 
 ![Password Policy](screenshots/password-policy.png)
 
 ## Status
-DC operational. AD structure built. Next: Entra Connect + password hash sync.
+On-prem DC operational. AD structure built and verified. Cloud sync (Block 5) blocked pending a personal Microsoft Entra tenant with Global Administrator rights. Will complete when tenant access is available.
