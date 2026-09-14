@@ -6,7 +6,7 @@ Hands-on identity and access management labs. Built on an Intel MacBook Air usin
 
 | # | Project | Status |
 | :--- | :--- | :--- |
-| 01 | [Hybrid Identity Core](projects/01-hybrid-identity-core/README.md) | In progress (65%) |
+| 01 | [Hybrid Identity Core](projects/01-hybrid-identity-core/README.md) | On-prem complete, cloud sync blocked |
 | 02 | [JML Automation Engine](projects/02-jml-automation/README.md) | Not started |
 | 03 | [Access Review & Compliance](projects/03-access-review/README.md) | Not started |
 | 04 | [Zero Trust Identity Layer](projects/04-zero-trust/README.md) | Not started |
